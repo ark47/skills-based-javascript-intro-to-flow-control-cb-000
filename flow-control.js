@@ -24,7 +24,7 @@ function ternaryTeenager(age) {
 }
 
 function switchAge(age) {
-  case "hungry":
+  case age > 12 && age < 20:
     console.log("You should eat a big chocolate cake");
     break;
   default:
